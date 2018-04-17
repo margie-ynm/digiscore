@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DigiScore</string>
+    <string name="team_a">Team Awesome</string>
+    <string name="team_b">Team Rad</string>
 </resources>
