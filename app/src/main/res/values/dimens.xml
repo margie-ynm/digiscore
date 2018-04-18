@@ -4,4 +4,8 @@
     <dimen name="team_label_text_size">22sp</dimen>
     <dimen name="team_fouls_text_size">20sp</dimen>
     <dimen name="team_score_text_size">20sp</dimen>
+    <dimen name="players_label_text_size">18sp</dimen>
+    <dimen name="button_margin_top">100dp</dimen>
+    <dimen name="players_label_margin_bottom">5dp</dimen>
+    <dimen name="button_margin_bottom">10dp</dimen>
 </resources>

@@ -85,6 +85,156 @@
                     android:text="@string/team_a_fouls"
                     android:textSize="@dimen/team_fouls_text_size" />
             </LinearLayout>
+            <!-- # players label # go here-->
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_foul_label"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:layout_marginBottom="@dimen/button_margin_bottom"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/players_label"
+                android:textAllCaps="true"
+                android:textSize="@dimen/players_label_text_size"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/players_label_margin_bottom"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+                <TextView
+                    android:id="@+id/team_a_player_1_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="1"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+                <TextView
+                    android:id="@+id/team_a_player_2_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="2"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/foul_label_text_size" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+                <TextView
+                    android:id="@+id/team_a_player_3_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="3"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+
+
+                <TextView
+                    android:id="@+id/team_a_player_4_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="4"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+                <TextView
+                    android:id="@+id/team_a_player_5_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="5"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/foul_label_text_size" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
 
 
         </LinearLayout>
@@ -95,6 +245,11 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VS"
+                android:textSize="20dp"/>
         </LinearLayout>
 
 
@@ -156,6 +311,155 @@
                     android:text="@string/team_b_fouls"
                     android:textSize="@dimen/team_fouls_text_size" />
             </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_point_s_label"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:layout_marginBottom="@dimen/button_margin_bottom"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/players_label"
+                android:textAllCaps="true"
+                android:textSize="@dimen/players_label_text_size"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/players_label_margin_bottom"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+                <TextView
+                    android:id="@+id/team_b_player_1_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="1"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+                <TextView
+                    android:id="@+id/team_b_player_2_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="2"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/foul_label_text_size" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+                <TextView
+                    android:id="@+id/team_b_player_3_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="3"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+
+
+                <TextView
+                    android:id="@+id/team_b_player_4_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="4"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"/>
+
+                <TextView
+                    android:id="@+id/team_b_player_5_label"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:text="5"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/foul_label_text_size" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
 
         </LinearLayout>
     </LinearLayout>
