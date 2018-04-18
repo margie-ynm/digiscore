@@ -245,8 +245,6 @@
                     android:ems="@integer/player_edit_width"/>
             </LinearLayout>
 
-
-
         </LinearLayout>
 
         <LinearLayout
@@ -255,14 +253,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="VS"
-                android:textSize="20dp"/>
+                android:text="@string/vs"
+                android:textSize="@dimen/vs_text_size"
+                android:textAllCaps="true"/>
+
         </LinearLayout>
-
-
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -286,9 +285,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/team_b_score"
-                android:hint="0"
+                android:hint="@string/hint_value"
                 android:gravity="center"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="@dimen/team_score_margin_top"
                 android:text="@string/team_b_score"
                 android:textSize="@dimen/team_score_text_size"
                 />
@@ -300,29 +299,30 @@
 
                 <TextView
                     android:id="@+id/team_b_fouls_label"
-                    android:paddingRight="10dp"
+                    android:paddingRight="@dimen/fouls_label_padding_right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="@dimen/fouls_label_margin_top"
                     android:gravity="center"
-                    android:hint="0"
+                    android:hint="@string/hint_value"
                     android:text="@string/team_fouls_label"
                     android:textAllCaps="true"
                     android:textSize="@dimen/foul_label_text_size" />
 
                 <TextView
                     android:id="@+id/team_b_fouls_count"
-                    android:paddingRight="20dp"
+                    android:paddingRight="@dimen/fouls_count_padding_right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="@dimen/fouls_count_margin_top"
                     android:gravity="center"
-                    android:hint="0"
+                    android:hint="@string/hint_value"
                     android:text="@string/team_b_fouls"
                     android:textSize="@dimen/team_fouls_text_size" />
             </LinearLayout>
 
             <Button
+                android:id="@+id/add_points"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/add_point_s_label"
@@ -347,21 +347,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="#"/>
+                    android:text="@string/pound_sign"/>
 
                 <TextView
                     android:id="@+id/team_b_player_1_label"
-                    android:paddingRight="10dp"
+                    android:paddingRight="@dimen/single_player_padding_right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:hint="0"
-                    android:text="1"
-                    android:textSize="20dp" />
+                    android:hint="@string/hint_value"
+                    android:text="@string/team_b_player_1_text"
+                    android:textSize="@dimen/single_player_text_size" />
 
                 <EditText
+                    android:id="@+id/team_b_player_1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:ems="@integer/player_edit_width"/>
             </LinearLayout>
 
             <LinearLayout
@@ -372,23 +374,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="#"/>
+                    android:text="@string/pound_sign"/>
 
                 <TextView
                     android:id="@+id/team_b_player_2_label"
-                    android:paddingRight="10dp"
+                    android:paddingRight="@dimen/single_player_padding_right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
                     android:gravity="center"
-                    android:hint="0"
-                    android:text="2"
-                    android:textAllCaps="true"
-                    android:textSize="@dimen/foul_label_text_size" />
+                    android:hint="@string/hint_value"
+                    android:text="@string/team_b_player_2_text"
+                    android:textSize="@dimen/single_player_text_size" />
 
                 <EditText
+                    android:id="@+id/team_b_player_2"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:ems="@integer/player_edit_width"/>
             </LinearLayout>
 
             <LinearLayout
@@ -399,21 +401,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="#"/>
+                    android:text="@string/pound_sign"/>
 
                 <TextView
                     android:id="@+id/team_b_player_3_label"
-                    android:paddingRight="10dp"
+                    android:paddingRight="@dimen/single_player_padding_right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:hint="0"
-                    android:text="3"
-                    android:textSize="20dp" />
+                    android:hint="@string/hint_value"
+                    android:text="@string/team_b_player_3_text"
+                    android:textSize="@dimen/single_player_text_size" />
 
                 <EditText
+                    android:id="@+id/team_b_player_3"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:ems="@integer/player_edit_width"/>
             </LinearLayout>
 
             <LinearLayout
@@ -424,23 +428,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="#"/>
-
-
+                    android:text="@string/pound_sign"/>
 
                 <TextView
                     android:id="@+id/team_b_player_4_label"
-                    android:paddingRight="10dp"
+                    android:paddingRight="@dimen/single_player_padding_right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:hint="0"
-                    android:text="4"
-                    android:textSize="20dp" />
+                    android:hint="@string/hint_value"
+                    android:text="@string/team_b_player_4_text"
+                    android:textSize="@dimen/single_player_text_size" />
 
                 <EditText
+                    android:id="@+id/team_b_player_4"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:ems="@integer/player_edit_width"/>
             </LinearLayout>
 
             <LinearLayout
@@ -451,23 +455,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="#"/>
+                    android:text="@string/pound_sign"/>
 
                 <TextView
                     android:id="@+id/team_b_player_5_label"
-                    android:paddingRight="10dp"
+                    android:paddingRight="@dimen/single_player_padding_right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
                     android:gravity="center"
-                    android:hint="0"
-                    android:text="5"
-                    android:textAllCaps="true"
-                    android:textSize="@dimen/foul_label_text_size" />
+                    android:hint="@string/hint_value"
+                    android:text="@string/team_b_player_5_text"
+                    android:textSize="@dimen/single_player_text_size" />
 
                 <EditText
+                    android:id="@+id/team_b_player_5"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:ems="@integer/player_edit_width"/>
             </LinearLayout>
 
 

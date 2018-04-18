@@ -18,4 +18,10 @@
     <string name="team_a_player_3_text">3</string>
     <string name="team_a_player_4_text">4</string>
     <string name="team_a_player_5_text">5</string>
+    <string name="vs">VS</string>
+    <string name="team_b_player_1_text">1</string>
+    <string name="team_b_player_2_text">2</string>
+    <string name="team_b_player_3_text">3</string>
+    <string name="team_b_player_4_text">4</string>
+    <string name="team_b_player_5_text">5</string>
 </resources>
