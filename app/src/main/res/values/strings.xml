@@ -6,7 +6,7 @@
     <string name="team_a_score">34</string>
     <string name="team_a_fouls">4</string>
     <string name="team_b_fouls">5</string>
-    <string name="team_b_score">29</string>
+    <string name="team_b_score">30</string>
     <string name="players_label">players:</string>
     <string name="add_point_s_label">Add Point(s)</string>
     <string name="add_foul_label">Add Foul</string>

@@ -19,4 +19,5 @@
     <dimen name="single_player_padding_right">10dp</dimen>
     <dimen name="single_player_text_size">20sp</dimen>
     <dimen name="vs_text_size">20sp</dimen>
+    <dimen name="linear_width">0dp</dimen>
 </resources>
