@@ -20,4 +20,5 @@
     <dimen name="single_player_text_size">20sp</dimen>
     <dimen name="vs_text_size">20sp</dimen>
     <dimen name="linear_width">0dp</dimen>
+    <dimen name="button_bottom_padding">10dp</dimen>
 </resources>

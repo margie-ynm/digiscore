@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bball_court"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imageView"
-        android:src="@drawable/bball_court"
-        android:scaleType="centerCrop"
-        android:contentDescription="@string/basketball_court_description"/>
-
     <LinearLayout
+        android:layout_weight="5"
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:paddingLeft="@dimen/parent_linear_padding_left"
         android:paddingRight="@dimen/parent_linear_padding_right"
         android:gravity="top"
@@ -492,5 +487,10 @@
 
         </LinearLayout>
     </LinearLayout>
-
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:text="Click Me!"
+        android:layout_marginBottom="@dimen/button_bottom_padding"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
