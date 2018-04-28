@@ -92,7 +92,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/add_foul_label"
                 android:layout_marginTop="@dimen/button_margin_top"
-                android:layout_marginBottom="@dimen/button_margin_bottom"/>
+                android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:onClick="addFouls"/>
 
             <TextView
                 android:id="@+id/players_a_label"
@@ -330,6 +331,7 @@
                 android:text="@string/add_point_s_label"
                 android:layout_marginTop="@dimen/button_margin_top"
                 android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:onClick="addPoints"
                 />
 
             <TextView
