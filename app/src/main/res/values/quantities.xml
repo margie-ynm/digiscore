@@ -4,4 +4,5 @@
     <integer name="linear_2_weight">10</integer>
     <integer name="edit_player_width">3</integer>
     <integer name="player_edit_width">3</integer>
+
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="logan">4</integer>
+    <integer name="jack">41</integer>
+    <integer name="max">30</integer>
+    <integer name="cortez">22</integer>
+    <integer name="calvin">12</integer>
+
+</resources>
