@@ -1,8 +1,10 @@
 package com.example.yatusabes.digiscore;
 
+import java.util.ArrayList;
+
 public class Team {
     private String mName;
-    private Player[] mPlayers;
+    private ArrayList<Player> mPlayerList;
 
 
     public Team(String name) {
@@ -15,7 +17,7 @@ public class Team {
 
     public Integer getScore() {
         Integer score = 0;
-        for (Player player:mPlayers) {
+        for (Player player:mPlayerList) {
             score += player.getScore();
         }
         return score;
