@@ -2,6 +2,8 @@ package com.example.yatusabes.digiscore;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.TypedValue;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -34,7 +36,12 @@ public class MainActivity extends AppCompatActivity {
         TextView playerNumberLabel = new TextView(this);
         playerNumberLabel.setText(player.getNumber().toString());
 
+        playerNumberLabel.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.single_player_text_size));
+        EditText playerPointInput = new EditText(this);
+
+
         playerLine.addView(playerNumberLabel);
+        playerLine.addView(playerPointInput);
 
         teamAPane.addView(playerLine);
     }
